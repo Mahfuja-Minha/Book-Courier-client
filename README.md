@@ -1,16 +1,117 @@
-# React + Vite
+# Library Management System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A full-stack role-based Library Management web application where users can browse and order books, librarians manage their own books & orders, and admins control the entire system.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Live Site
+ https://your-live-link.com
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Project Purpose
 
-## Expanding the ESLint configuration
+This project is built to provide a complete digital library solution with:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Book browsing & ordering system
+- Role-based dashboards
+- Secure authentication
+- Online payment integration
+- Admin control panel
+
+---
+
+## User Features
+
+- Browse all published books
+- View book details (Protected)
+- Add to wishlist
+- Place book orders
+- Secure Stripe payment
+- View payment history
+- Manage profile
+
+---
+
+## Librarian Features
+
+- Add new books
+- Edit own books
+- Delete books
+- View orders of own books
+- Update order status  
+  `pending → shipped → delivered`
+- Unpublish books
+
+---
+
+## Admin Features
+
+- Manage all users
+  - Make Admin
+  - Make Librarian
+- Manage all books
+  - Publish / Unpublish
+  - Delete book (also deletes related orders)
+- Admin profile
+
+---
+
+## Authentication & Security
+
+- Firebase Authentication
+- JWT token verification
+- Role-based protected routes
+- Axios secure interceptor
+- Private dashboard access
+
+---
+
+## Payment System
+
+- Stripe payment integration
+- Payment success & cancel page
+- User payment history
+
+---
+
+## Key Features
+
+- Role-based Dashboard
+- Fully protected routes
+- Dynamic book status system
+- Responsive for all devices
+- Dark mode support 
+- SweetAlert confirmation
+- TanStack Query data fetching & caching
+- Loading & error handling
+
+---
+
+## Tech Stack
+
+### Frontend
+
+- React
+- React Router
+- Tailwind CSS
+- DaisyUI
+- TanStack React Query
+- Axios
+- Firebase
+- React Toastify
+- SweetAlert2
+- Stripe
+- Lucide React Icons
+- React Icons
+
+### Backend
+
+- Node.js
+- Express.js
+- MongoDB
+- JWT
+- Firebase Admin SDK
+- CORS
+- Dotenv
+
