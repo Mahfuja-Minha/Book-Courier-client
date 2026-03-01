@@ -32,7 +32,7 @@ const HomeCoverage = () => {
         </div>
       </div>
       {/*  */}
-      <div className="border max-w-7xl mx-auto h-[550px] rounded-xl overflow-hidden">
+      <div className="border max-w-7xl mx-auto h-[550px] rounded-xl overflow-hidden relative z-0">
         <MapContainer
           center={position}
           zoom={8}
