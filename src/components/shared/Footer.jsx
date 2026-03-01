@@ -5,7 +5,9 @@ const Footer = () => {
     <footer className=" bg-base-100  border-t border-base-300 text-base-content p-10 pb-5">
       <div className="footer sm:footer-horizontal w-10/12 mx-auto">
         <nav>
-          <h1 className="font-bold text-xl text-base-content">BookCourier</h1>
+          <h1 className="font-bold text-xl text-base-content">
+            Book<span className="text-lime-600">Courier</span>
+          </h1>
         </nav>
         <nav>
           <h6 className="footer-title">Services</h6>
@@ -76,7 +78,9 @@ const Footer = () => {
 
       <hr className="text-gray-300 my-6" />
 
-      <p className="text-center ">&copy; 2026 BookCourier — All rights reserved.</p>
+      <p className="text-center ">
+        &copy; 2026 BookCourier — All rights reserved.
+      </p>
     </footer>
   );
 };

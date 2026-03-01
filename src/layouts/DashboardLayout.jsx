@@ -25,7 +25,7 @@ const DashboardLayout = () => {
         : "User Dashboard";
 
   return (
-    <div className="relative min-h-screen md:flex bg-white">
+    <div className="relative min-h-screen md:flex bg-white dark:bg-slate-900">
       {/* Left Side: Sidebar Component */}
       <div className="drawer lg:drawer-open">
         <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
@@ -56,7 +56,7 @@ const DashboardLayout = () => {
             <div className="px-4 font-semibold">{dashboardTitle}</div>
           </nav>
           {/* Page content here */}
-          <div className="p-4 ">
+          <div className="p-4">
             <Outlet></Outlet>
           </div>
         </div>

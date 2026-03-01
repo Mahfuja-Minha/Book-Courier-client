@@ -2,7 +2,7 @@ import { Link } from "react-router";
 
 const BookCard = ({ book }) => {
   return (
-    <div className="bg-white dark:bg-slate-700 border border-slate-200 dark:border-slate-600 rounded-lg overflow-hidden hover:shadow-lg transition flex flex-col">
+    <div className="bg-white dark:bg-gray-800 border border-slate-200 dark:border-slate-600 rounded-lg overflow-hidden hover:shadow-lg transition flex flex-col">
       
       <img
         src={book.image}

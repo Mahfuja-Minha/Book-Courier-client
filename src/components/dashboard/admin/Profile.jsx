@@ -55,7 +55,7 @@ const Profile = () => {
         <User className="text-lime-600" strokeWidth={3} />
       </div>
       <div className="text-center mb-8 space-y-3">
-        <h1 className="text-3xl font-bold text-[#3A3A3A]">
+        <h1 className="text-3xl font-bold">
           {edit ? "Edit Profile" : "My Profile"}
         </h1>
 

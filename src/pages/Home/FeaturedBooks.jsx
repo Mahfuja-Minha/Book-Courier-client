@@ -15,7 +15,7 @@ const FeaturedBooks = () => {
   });
 
   return (
-    <div className="max-w-7xl mx-auto px-4 py-16">
+    <div className="max-w-7xl mx-auto px-4 pt-16">
         <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold">
         <span className="text-lime-600">Featured</span> Books
@@ -26,15 +26,15 @@ const FeaturedBooks = () => {
         </div>
       
 
-      <div className="grid md:grid-cols-3 gap-6">
+      <div className="grid md:grid-cols-3 lg:grid-cols-4 gap-6">
         {books.map((book) => (
           <BookCard key={book._id} book={book} />
         ))}
       </div>
 
-      <div className="flex justify-center mt-5">
+      <div className="flex justify-center mt-8">
         <Link to={"/books"}>
-          <button className="btn bg-lime-500 text-white   transition">
+          <button className="btn bg-lime-500 hover:bg-lime-700 text-white   transition">
             All Books
           </button>
         </Link>

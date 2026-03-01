@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Rahim Uddin",
+    "role": "University Student",
+    "rating": 5,
+    "image": "https://i.pravatar.cc/150?img=11",
+    "review": "Amazing service! I received my books within two days. Packaging was perfect and the delivery process was very smooth."
+  },
+  {
+    "id": 2,
+    "name": "Nusrat Jahan",
+    "role": "College Student",
+    "rating": 5,
+    "image": "https://i.pravatar.cc/150?img=32",
+    "review": "Very fast delivery and the books were in excellent condition. I really appreciate the service."
+  },
+  {
+    "id": 3,
+    "name": "Mahmud Hasan",
+    "role": "Book Lover",
+    "rating": 4,
+    "image": "https://i.pravatar.cc/150?img=14",
+    "review": "Great platform for book delivery across Bangladesh. The tracking system is also very helpful."
+  },
+  {
+    "id": 4,
+    "name": "Farzana Akter",
+    "role": "School Teacher",
+    "rating": 5,
+    "image": "https://i.pravatar.cc/150?img=48",
+    "review": "I ordered several academic books and received them earlier than expected. Highly recommended."
+  },
+  {
+    "id": 5,
+    "name": "Sabbir Ahmed",
+    "role": "CSE Student",
+    "rating": 4,
+    "image": "https://i.pravatar.cc/150?img=21",
+    "review": "Reliable delivery service. The website is easy to use and ordering books is very convenient."
+  },
+  {
+    "id": 6,
+    "name": "Tania Sultana",
+    "role": "Book Collector",
+    "rating": 5,
+    "image": "https://i.pravatar.cc/150?img=45",
+    "review": "One of the best online book delivery services I have used. Smooth ordering and fast shipping."
+  },
+  {
+    "id": 7,
+    "name": "Arif Hossain",
+    "role": "Research Student",
+    "rating": 5,
+    "image": "https://i.pravatar.cc/150?img=17",
+    "review": "Excellent experience! I received rare books quickly and the support team was very helpful."
+  },
+  {
+    "id": 8,
+    "name": "Sumaiya Islam",
+    "role": "University Student",
+    "rating": 4,
+    "image": "https://i.pravatar.cc/150?img=29",
+    "review": "The delivery service is very reliable and covers almost all districts. Really impressed."
+  },
+  {
+    "id": 9,
+    "name": "Tanvir Rahman",
+    "role": "Software Engineer",
+    "rating": 5,
+    "image": "https://i.pravatar.cc/150?img=36",
+    "review": "I love the service quality. Fast delivery and excellent customer support."
+  },
+  {
+    "id": 10,
+    "name": "Shamima Akter",
+    "role": "Reader",
+    "rating": 5,
+    "image": "https://i.pravatar.cc/150?img=47",
+    "review": "Very convenient platform for ordering books online. Highly recommended for book lovers."
+  }
+]

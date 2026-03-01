@@ -63,6 +63,9 @@ const Navbar = () => {
             <li>
               <MyLink to="/books">Books</MyLink>
             </li>
+            <li>
+              <MyLink to="/coverage">Coverage</MyLink>
+            </li>
         
             <li className="flex gap-2">
               <div>
@@ -92,6 +95,9 @@ const Navbar = () => {
           </li>
           <li>
             <MyLink to="/books">Books</MyLink>
+          </li>
+          <li>
+            <MyLink to="/coverage">Coverage</MyLink>
           </li>
          
         </ul>

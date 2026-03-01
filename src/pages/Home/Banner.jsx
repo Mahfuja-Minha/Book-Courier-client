@@ -8,7 +8,8 @@ import { ArrowUpRight } from "lucide-react";
 
 const Banner = () => {
   return (
-    <div className="w-11/12 md:w-10/12 mx-auto py-6 md:p-10  ">
+    <div className="max-w-7xl mx-auto py-6 md:p-10  ">
+    {/* <div className="w-11/12 md:w-10/12 mx-auto py-6 md:p-10  "> */}
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         // navigation

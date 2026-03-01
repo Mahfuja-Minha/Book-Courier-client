@@ -10,7 +10,6 @@ import DashboardLayout from "../layouts/DashboardLayout";
 import MyOrders from "../components/dashboard/user/MyOrders";
 import Wishlist from "../components/dashboard/user/Wishlist";
 import MyProfile from "../components/dashboard/user/MyProfile";
-import Coverage from "../pages/Home/Coverage";
 import Payment from "../components/dashboard/user/Payment";
 import PaymentSuccess from "../components/dashboard/Payment/PaymentSuccess";
 import PaymentCancelled from "../components/dashboard/Payment/PaymentCancelled";
@@ -25,6 +24,7 @@ import AllUsers from "../components/dashboard/admin/AllUsers";
 import ManageBooks from "../components/dashboard/admin/ManageBooks";
 import Profile from "../components/dashboard/admin/Profile";
 import ErrorPage from "../pages/Error/ErrorPage";
+import Coverage from "../pages/Coverage";
 
 export const router = createBrowserRouter([
   {
@@ -53,10 +53,10 @@ export const router = createBrowserRouter([
         Component: Coverage,
         // loader: ()=>fetch('/deliveryCenter.json').then(res=>res.json())
 
-        loader: async () => {
-          const res = await fetch("/deliveryCenter.json");
-          return res.json();
-        },
+        // loader: async () => {
+        //   const res = await fetch("/deliveryCenter.json");
+        //   return res.json();
+        // },
       },
     ],
   },
